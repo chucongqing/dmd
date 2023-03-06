@@ -562,7 +562,7 @@ function anchorName (options) {
     }
   }
   return util.format(
-    '%s%s%s',
+    "user-content-%s%s%s",
     this.isExported ? 'exp_' : '',
     this.kind === 'constructor' ? 'new_' : '',
     this.id
